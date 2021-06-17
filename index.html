@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>    
+.preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 1rem;
+}
+
+.preview > div {
+  border-right: 1rem solid #fff;  /* Force Margin */
+}
+
+#video {
+  background: #ffc;
+}
+    </style>
+
+</head>
+
+<body>
+
+<div><video id="video" width="320" height="240" playsinline muted autoplay></video></div>
+    
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="opencv.js"></script>
+  <script language="javascript" type="text/javascript" src="utils.js"></script>
+  <script language="javascript" type="text/javascript" src="ex11_Capture.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <style> body { padding: 0; margin: 0; } </style>
+
+</body>
+</html>
